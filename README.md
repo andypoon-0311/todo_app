@@ -63,7 +63,22 @@ There are purposely minimal system components, as you can see from the diagram a
 
 The user interface is supported by the Qt SDK for python. The .ui files were exported from the Qt designer.
 
-## Design
+# Detail Designs
+## User Interface Design
+
+## Home Page 
+Users will see on option to edit their list. They can either add a task or remove task
+
+## Add Task Page
+Users will have a place to type in the task they want to add to their list. Their input will be added to the JSON File
+
+## Mark as complete
+The user will see their whole list of task. They get to select the one they want to mark as complete.
+
+## Delete Task Page
+Users will have a place to type which task they want to remove from their list. The task will be removed from the JSON File.
+
+## Interface Design
 
 ### toDoList.py
 
