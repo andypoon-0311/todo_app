@@ -21,7 +21,7 @@ A compiled executable may be made by using PyInstaller to compile the source cod
 |---------|-------|--------|
 | Actor   | User | Stick Figure |
 | Use Case| User wants to add task to list | Oval |
-| Flow| User selects that they want to edit their list. They select add task. They input their task and gets saved to a JSON file. |
+| Flow| User selects that they want to edit their list. They select add task. They input their task and gets saved to a JSON file. When they complete the task, they are able to mark it as complete. |
 
 
 ### Diagram
@@ -29,6 +29,14 @@ A compiled executable may be made by using PyInstaller to compile the source cod
 <p align="center">
     <img src="Documents/todoApp_use_case_diagram.png" alt="Use Case Diagram" width="600">
 </p>
+
+## Deleting Task 
+
+| Feature | Focus | Symbol |
+|---------|-------|--------|
+| Actor   | User | Stick Figure |
+| Use Case| User wants to remove task to list | Oval |
+| Flow| Once user completes a task, they have option to remove it. When the deleteTask method is called. The selected task is removed from list. |
 
 Every action taken is by the end user. There are no further external entities. An end user should be able to add a task, complete a task, and view all of their tasks. 
 
