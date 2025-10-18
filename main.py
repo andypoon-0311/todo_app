@@ -95,7 +95,7 @@ class MainWindow:
             QMessageBox.information(self.window, "Complete", f"'{title}' done!")
             self.refresh_tasks()
 
-
+#main
 if __name__ == "__main__":
     app = QApplication([])
     ui = MainWindow()
