@@ -48,7 +48,7 @@ A compiled executable may be made by using PyInstaller to compile the source cod
 | Flow| Once user completes a task, they have option to remove it. When the deleteTask method is called. The selected task is removed from list. |
 
 <p align="center">
-    <img src="Documents/todoApp_use_case_diagram.png" alt="Use Case Diagram" width="600">
+    <img src="Documents/IMG_0686.png" alt="Use Case Diagram" width="600">
 </p>
 
 Every action taken is by the end user. There are no further external entities. An end user should be able to add a task, complete a task, and view all of their tasks. 
