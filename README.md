@@ -7,13 +7,21 @@ The application will be written in python on the Qt SDK (pyside6). The applicati
 
 A compiled executable may be made by using PyInstaller to compile the source code. There is already a compiled version of this in dist/main but it is only compatiable with linux. If you wish to use a compiled version please install pyinstaller. Users may also choose to clone the repository, install all dependencies and run it just as a .py. Dependencies are located in requirements.txt.
 
-## Use Case
+## Use Case Diagrams 
 
 | Feature | Focus | Symbol |
 |---------|-------|--------|
 | Actor   | This application is meant for general purpose usage, anyone may use it | Stick Figure |
 | Use Case| Organize tasks into one application without having to pay for a subscription and all your data stays local | Oval |
 | System Boundary | To maintain privacy all data is local to the end user. The only external entity that interacts with the application is therefore the end user | Rectangle | 
+
+## Adding Task 
+
+| Feature | Focus | Symbol |
+|---------|-------|--------|
+| Actor   | User | Stick Figure |
+| Use Case| User wants to add task to list | Oval |
+
 
 ### Diagram
 
