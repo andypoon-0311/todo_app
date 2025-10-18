@@ -21,6 +21,7 @@ A compiled executable may be made by using PyInstaller to compile the source cod
 |---------|-------|--------|
 | Actor   | User | Stick Figure |
 | Use Case| User wants to add task to list | Oval |
+| Flow| User selects that they want to edit their list. They select add task. They input their task and gets saved to a JSON file. |
 
 
 ### Diagram
