@@ -7,6 +7,15 @@ The application will be written in python on the Qt SDK (pyside6). The applicati
 
 A compiled executable may be made by using PyInstaller to compile the source code. There is already a compiled version of this in dist/main but it is only compatiable with linux. If you wish to use a compiled version please install pyinstaller. Users may also choose to clone the repository, install all dependencies and run it just as a .py. Dependencies are located in requirements.txt.
 
+## User Stories and Scenarios
+
+. A user has trouble remembering what chores they have to do. They want to use this software to create a to-do list.
+. Throughout the day the user remembers more tasks they have to do. They are able to add more tasks to their list.
+. Once a task is complete, they are able to remove it from their list.
+. If the user wants to see all the task they have, they are able to view their list
+. When the user is done editing their list, they are able to quit the software. 
+
+
 ## Use Case Diagrams 
 
 | Feature | Focus | Symbol |
