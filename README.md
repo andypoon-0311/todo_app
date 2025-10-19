@@ -74,19 +74,19 @@ Users will see on option to edit their list. They can either add a task or remov
     <img src="Documents/Home Page.png" alt="Use Case Diagram" width="400">
 </p>
 
-##Add Task Page
+## Add Task Page
 Users will have a place to type in the task they want to add to their list. Their input will be added to the JSON File
 <p align="center">
     <img src="Documents/Add Task Page.png" alt="Use Case Diagram" width="400">
 </p>
 
-##Mark as complete
+## Mark as complete
 The user will see their whole list of task. They get to select the one they want to mark as complete.
 <p align="center">
     <img src="Documents/Complete.png" alt="Use Case Diagram" width="400">
 </p>
 
-##Delete Task Page
+## Delete Task Page
 Users will have a place to type which task they want to remove from their list. The task will be removed from the JSON File.
 <p align="center">
     <img src="Documents/Delete Task Page.png" alt="Use Case Diagram" width="400">
