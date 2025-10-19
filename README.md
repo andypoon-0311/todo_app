@@ -66,7 +66,40 @@ There are purposely minimal system components, as you can see from the diagram a
 
 The user interface is supported by the Qt SDK for python. The .ui files were exported from the Qt designer.
 
-# Detail Designs
+## User Interface Design
+
+## Home Page 
+Users will see on option to edit their list. They can either add a task or remove task
+<p align="center">
+    <img src="Documents/Home Page.png" alt="Use Case Diagram" width="400">
+</p>
+
+##Add Task Page
+Users will have a place to type in the task they want to add to their list. Their input will be added to the JSON File
+<p align="center">
+    <img src="Documents/Add Task Page.png" alt="Use Case Diagram" width="400">
+</p>
+
+##Mark as complete
+The user will see their whole list of task. They get to select the one they want to mark as complete.
+<p align="center">
+    <img src="Documents/Complete.png" alt="Use Case Diagram" width="400">
+</p>
+
+##Delete Task Page
+Users will have a place to type which task they want to remove from their list. The task will be removed from the JSON File.
+<p align="center">
+    <img src="Documents/Delete Task Page.png" alt="Use Case Diagram" width="400">
+</p>
+
+<p align="center">
+    <img src="Documents/Deleted Task.png" alt="Use Case Diagram" width="400">
+</p>
+
+
+
+
+## Detail Designs
 ### toDoList.py
 
 **save_tasks** : It's sole purpose is to write data to the json file.
@@ -147,35 +180,4 @@ The ui variable just renders the MainWindow upon start up of the applciation. Wi
 ```python
 ui = MainWindow()
 ui.show()
-
-##User Interface Design
-
-##Home Page 
-Users will see on option to edit their list. They can either add a task or remove task
-<p align="center">
-    <img src="Documents/Home Page.png" alt="Use Case Diagram" width="400">
-</p>
-
-##Add Task Page
-Users will have a place to type in the task they want to add to their list. Their input will be added to the JSON File
-<p align="center">
-    <img src="Documents/Add Task Page.png" alt="Use Case Diagram" width="400">
-</p>
-
-##Mark as complete
-The user will see their whole list of task. They get to select the one they want to mark as complete.
-<p align="center">
-    <img src="Documents/Complete.png" alt="Use Case Diagram" width="400">
-</p>
-
-##Delete Task Page
-Users will have a place to type which task they want to remove from their list. The task will be removed from the JSON File.
-<p align="center">
-    <img src="Documents/Delete Task Page.png" alt="Use Case Diagram" width="400">
-</p>
-
-<p align="center">
-    <img src="Documents/Deleted Task.png" alt="Use Case Diagram" width="400">
-</p>
-
 
