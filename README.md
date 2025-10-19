@@ -147,6 +147,7 @@ The ui variable just renders the MainWindow upon start up of the applciation. Wi
 ```python
 ui = MainWindow()
 ui.show()
+
 ##User Interface Design
 
 ##Home Page 
