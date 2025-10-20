@@ -13,7 +13,11 @@ class AddTaskDialog(QDialog):
         gui_file.open(QFile.ReadOnly)
         self.window = loader.load(gui_file)   # this is the pop up window for adding a task
         gui_file.close()
-        self.window.setParent(self)
+        #self.window.setParent(self)
+
+        task_layout = QVBoxLayout(self)
+        task_layout.addWidget(self.window)
+        self.setLayout(task_layout)
 
         buttonBox = self.window.findChild(QWidget, "buttonBox")
         buttonBox.accepted.connect(self.accept)
