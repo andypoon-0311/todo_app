@@ -8,13 +8,17 @@ Test Objectives: During testing, we are trying to find any program bugs or error
 In-Scope/Out-of-Scope: In our first round of testing, we will test if a task can be properly added to the to do list and if it can be marked as complete. Removing a task testing will be apart of the next plan. 
 
 ## 2. Functional Testing Strategy (Levels)
-Unit Testing: 
+Unit Testing: First, we are going to run all of the programs code at once to see what units need work on. Them We are breaking up the code test into seperate test depending on the type of the method the code corresponds with. We will descide what other test to run as we right the code.
+
+Feature Testing: 
+
+
 
 ## 3. Testing Types and Goal
 
 ## 4. Test Design Approach
 
-## Test Enviroment and Delieverables
+## 5. Test Enviroment and Delieverables
 
 
 
