@@ -15,10 +15,11 @@ class AddTaskDialog(QDialog):
         gui_file.close()
         self.window.setParent(self)
 
+
         buttonBox = self.window.findChild(QWidget, "buttonBox")
         buttonBox.accepted.connect(self.accept)
         buttonBox.rejected.connect(self.reject)
-    
+
     def get_task_data(self):
         titleInput = self.window.findChild(QWidget, "TitleInput")
         descInput = self.window.findChild(QWidget, "descriptionInput")
@@ -94,7 +95,7 @@ class MainWindow:
             QMessageBox.information(self.window, "Complete", f"'{title}' done!")
             self.refresh_tasks()
 
-#main
+#mainc
 if __name__ == "__main__":
     app = QApplication([])
     ui = MainWindow()
