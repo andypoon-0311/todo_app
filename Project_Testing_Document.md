@@ -1,19 +1,18 @@
 # Project Testing Document
 
 ## 1. Introduction and Scope
-Project Overview: Our goal of our project is to for the user to be able to create and add task to a to list. Users can mark task as complete and remove them.
+Project Overview: Our goal of our project is to for the user to be able to create and add task to a to list. Users can mark task as complete and remove them. This software should help users keep track of what they have to do throughout the day. 
 
-Test Objectives: During testing, we are trying to find any program bugs or errors that need to be fixed. We are going to make sure all methods work as intendented. When users adds tasks, the to do list should show them as the order they were put in. When a user selects to remove a task from the list, the task should not appear in the list once the command is done. If the user wants to mark the task as complete, a mark should show up next to that task. If all of the methods work, the software is good enough to realease. 
+Test Objectives: During testing, we are trying to find any program bugs or errors that need to be fixed. We are going to make sure all methods work as intended. When users adds tasks, the to do list should show them as the order they were put in. When a user selects to remove a task from the list, the task should not appear in the list once the command is done. If the user wants to mark the task as complete, a mark should show up next to that task. If all of the methods work, the software is ready to realease. 
 
 In-Scope/Out-of-Scope: In our first round of testing, we will test if a task can be properly added to the to do list and if it can be marked as complete. Removing a task testing will be apart of the next plan. 
 
 ## 2. Functional Testing Strategy (Levels)
-Unit Testing: First, we are going to run all of the programs code at once to see what units need work on. Them We are breaking up the code test into seperate test depending on the type of the method the code corresponds with. We will descide what other test to run as we right the code.
+Unit Testing: First, we will descide which specific test to run as we right the code. We will test every possible senario and make sure the program works as intended. The first test we will do is run all part of the program at once. This will show us what functions have errors and need need to be worked on. Then we are testing the code in smaller amounts. The amounts depend on the type of code  and if it corresponds to a certain function. 
 
-Feature Testing: We are going to make sure that all of the functions meet the users needs. Weather they want to add or remove task from there list. We will test this by see if a task is added to a list, that data is put into the JSON file. If a task is being romoved from the list, it should be removed from the JSON File. 
+Feature Testing: We are going to make sure that all of the functions meet the users needs. Weather they want to add or remove task from there list. We will test this by seeing if a task is added to a list is stored into a JSON file. If a task is being deleted from the list, the data should be removed from the JSON File. 
 
-System Testing (End-to-End): Our goal is to make sure the software works as intended. If data is properly being added or removed from the JSON File. We will go back and correct the errors until it is correct.
-
+System Testing (End-to-End): Our goal is to make sure the software works as intended. The data should proply be added or removed from the JSON File. For example if a user adds a task to their list and it is not saving in the JSON file We will go back and correct the errors until the software works.
 
 
 ## 3. Testing Types and Goal
