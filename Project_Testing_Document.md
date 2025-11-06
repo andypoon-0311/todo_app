@@ -17,8 +17,6 @@ System Testing (End-to-End): Our goal is to make sure the software works as inte
 
 
 ## 3. Testing Types and Goal
-User Testing: We wanted to show how this software can usful to users since itis and electronic to do list. Today many people to their work from computers or other smart gagets. This appilcation will keep a user course on a do list and their other work all in on spot. Their to do list should be easy to find on their computer and can run when other applications are running.  
-
 User Testing: We are going to select a group of about a dozen users. These users will use the todo application to assist in their day to day tasks. We plan on selecting users in mulitple industries as one of the goals of the application is to be general purpose for any use case. The result we are hoping for is that users find the application simple and easy to use. It should improve a users work flow.
 
 Performance and Load Testing: To achieve this testing case, because the application does not have an API we are going to manaully stress the application by continuously adding tasks. If that succeeds without crashing the application, we will proceed with continuously deleting tasks. The expected result is that the application should remain stable. Another test that we would like to do have an absurdly large input to test for stability and security considerations such as a buffer overflow.
