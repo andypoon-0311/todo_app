@@ -10,11 +10,14 @@ In-Scope/Out-of-Scope: In our first round of testing, we will test if a task can
 ## 2. Functional Testing Strategy (Levels)
 Unit Testing: First, we are going to run all of the programs code at once to see what units need work on. Them We are breaking up the code test into seperate test depending on the type of the method the code corresponds with. We will descide what other test to run as we right the code.
 
-Feature Testing: 
+Feature Testing: We are going to make sure that all of the functions meet the users needs. Weather they want to add or remove task from there list. We will test this by see if a task is added to a list, that data is put into the JSON file. If a task is being romoved from the list, it should be removed from the JSON File. 
+
+System Testing (End-to-End): Our goal is to make sure the software works as intended. If data is properly being added or removed from the JSON File. We will go back and correct the errors until it is correct.
 
 
 
 ## 3. Testing Types and Goal
+User Testing: We wanted to show how this software can usful to users since itis and electronic to do list. Today many people to their work from computers or other smart gagets. This appilcation will keep a user course on a do list and their other work all in on spot. Their to do list should be easy to find on their computer and can run when other applications are running.  
 
 User Testing: We are going to select a group of about a dozen users. These users will use the todo application to assist in their day to day tasks. We plan on selecting users in mulitple industries as one of the goals of the application is to be general purpose for any use case. The result we are hoping for is that users find the application simple and easy to use. It should improve a users work flow.
 
