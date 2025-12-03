@@ -180,8 +180,9 @@ The ui variable just renders the MainWindow upon start up of the applciation. Wi
 ```python
 ui = MainWindow()
 ui.show()
+```
 
-# Project Testing Document
+#Project Testing Document
 
 ## 1. Introduction and Scope
 Project Overview: Our goal of our project is to for the user to be able to create and add task to a to list. Users can mark task as complete and remove them. This software should help users keep track of what they have to do throughout the day. 
