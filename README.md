@@ -50,6 +50,7 @@ A compiled executable may be made by using PyInstaller to compile the source cod
 | Use Case| User wants to remove task to list | Oval |
 | Flow| Once user completes a task, they have option to remove it. When the deleteTask method is called. The selected task is removed from list. |
 
+### Diagram
 <p align="center">
     <img src="Documents/IMG_0686.png" alt="Use Case Diagram" width="600">
 </p>
